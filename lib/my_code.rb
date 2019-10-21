@@ -13,5 +13,5 @@ def map(source_array)
 end
 
 
-# map {|n| n}
-# map {|n| n*n}
+def reduce(source_array)
+  
