@@ -9,6 +9,6 @@ def map_stuff(source_array)
   end
 end
 
-map {|n| n*-1}
+map_stuff {|n| n*-1}
 # map {|n| n}
 # map {|n| n*n}
