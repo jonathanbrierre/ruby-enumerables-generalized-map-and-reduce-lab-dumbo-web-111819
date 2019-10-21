@@ -7,4 +7,4 @@ end
 
 map {|n| n*-1}
 map {|n| n}
-map {
+map {|n| n*n}
