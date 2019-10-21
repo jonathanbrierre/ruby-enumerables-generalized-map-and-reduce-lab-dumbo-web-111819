@@ -4,8 +4,9 @@ def map_stuff(source_array)
   new_array =[]
   i = 0 
   while i < source_array.count do
-    new_interger = yield source_array[i]
-    new_array << new_interger
+    yield 
+    source_array[i]
+    
   end
 end
 
