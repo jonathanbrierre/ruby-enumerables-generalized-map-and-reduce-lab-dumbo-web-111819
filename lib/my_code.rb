@@ -2,7 +2,7 @@
 
 def map (source_array)
   
-  yield 
+  yield source_array
 end
 
 map {|n| n*-1}
