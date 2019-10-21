@@ -5,7 +5,7 @@ def map_stuff(source_array)
   i = 0 
   while i < source_array.count do
     yield 
-    source_array[i]
+    new_array << source_array[i]
     
   end
 end
